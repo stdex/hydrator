@@ -3,13 +3,13 @@
 namespace Odan\Test;
 
 use Odan\Hydrator\ClassMethod;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Odan\Hydrator\ClassMethod
  */
-class ClassMethodTest extends AbstractTest
+class ClassMethodTest extends TestCase
 {
-
     /**
      * Test.
      *

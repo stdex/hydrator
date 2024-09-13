@@ -4,11 +4,10 @@ namespace Odan\Hydrator;
 
 class StringUtil
 {
-
     /**
      * Convert a value to lower camel case.
      *
-     * @param  string $value
+     * @param string $value
      * @return string
      */
     public static function camel($value)

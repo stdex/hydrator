@@ -13,7 +13,6 @@ use ReflectionParameter;
  */
 class ClassMethod implements HydratorInterface
 {
-
     /**
      * Hydrate $object with the provided $data.
      *
@@ -76,7 +75,7 @@ class ClassMethod implements HydratorInterface
      *
      * Naming strategy: Converts array keys to snake_case.
      *
-     * @param  object $object
+     * @param object $object
      * @return array
      */
     public function extract($object)

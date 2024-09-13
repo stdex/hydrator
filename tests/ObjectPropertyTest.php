@@ -3,13 +3,13 @@
 namespace Odan\Test;
 
 use Odan\Hydrator\ObjectProperty;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Odan\Hydrator\ObjectProperty
  */
-class ObjectPropertyTest extends AbstractTest
+class ObjectPropertyTest extends TestCase
 {
-
     /**
      * Test.
      *
